@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/style.min.css": "/css/style.min.css",
+    "/css/session_management.css": "/css/session_management.css",
+    "/css/app.css": "/css/app.css",
+    "/css/vis.min.css": "/css/vis.min.css",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/bootstrap.min.js": "/js/bootstrap.min.js",
+    "/js/session-management.js": "/js/session-management.js"
+}

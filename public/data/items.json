@@ -1,0 +1,378 @@
+[
+   [
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court1",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "1",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 35,
+         "group": "Court1",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "2",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court2",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "4",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 35,
+         "group": "Court2",
+         "className": "bg-grey",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "5",
+         "groupMatch": "2",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court3",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "6",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court3",
+         "className": "bg-green",
+         "content": "<span>Boys 10-1/8 <span class='text-light-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "7",
+         "groupMatch": "3",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court4",
+         "className": "bg-blue",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "8",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 35,
+         "group": "Court5",
+         "className": "bg-white",
+         "content": "<span class='text-black'>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "9",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court6",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "10",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court7",
+         "className": "bg-green",
+         "content": "<span>Boys 10-1/8 <span class='text-light-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "11",
+         "groupMatch": "3",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 40,
+         "group": "Court8",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "12",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court8",
+         "className": "bg-blue",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "13",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court9",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "14",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 40,
+         "group": "Court9",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "15",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court9",
+         "className": "bg-grey",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "16",
+         "groupMatch": "2",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 1500,
+         "group": "Court10",
+         "className": "bg-red-light",
+         "content": "",
+         "id": "17",
+         "groupMatch": "5",
+         "editable": true
+      },
+      {
+         "start": 0,
+         "end": 1500,
+         "group": "Court11",
+         "className": "bg-red-light",
+         "content": "",
+         "id": "18",
+         "groupMatch": "5",
+         "editable": true
+      },
+      {
+         "start": 0,
+         "end": 1500,
+         "group": "Court12",
+         "className": "bg-red-light",
+         "content": "",
+         "id": "19",
+         "groupMatch": "5",
+         "editable": true
+      },
+      {
+         "start": 0,
+         "end": 1500,
+         "group": "Court13",
+         "className": "bg-red-light",
+         "content": "",
+         "id": "20",
+         "groupMatch": "5",
+         "editable": true
+      },
+      {
+         "start": 20,
+         "end": 35,
+         "group": "Court14",
+         "className": "bg-white",
+         "content": "<span class='text-black'>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "21",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court15",
+         "className": "bg-blue",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "22",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court18",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "26",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court19",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "27",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court20",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "28",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 40,
+         "group": "Court20",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "29",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court20",
+         "className": "bg-grey",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "30",
+         "groupMatch": "2",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court23",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "31",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 40,
+         "group": "Court24",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "32",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court24",
+         "className": "bg-blue",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "33",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court25",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "34",
+         "groupMatch": "4",
+         "editable": false
+      }
+   ], 
+   [
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court1",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "35",
+         "groupMatch": "4",
+         "editable": false
+      }
+   ],
+   [
+      {
+         "start": 0,
+         "end": 20,
+         "group": "Court3",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "35",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court3",
+         "className": "bg-green",
+         "content": "<span>Boys 10-1/8 <span class='text-light-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "7",
+         "groupMatch": "3",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court4",
+         "className": "bg-blue",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "8",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 20,
+         "end": 35,
+         "group": "Court5",
+         "className": "bg-white",
+         "content": "<span class='text-black'>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "9",
+         "groupMatch": "1",
+         "editable": false
+      },
+      {
+         "start": 0,
+         "end": 15,
+         "group": "Court6",
+         "className": "bg-yellow",
+         "content": "<span>Boys 10-1/8 <span class='text-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "10",
+         "groupMatch": "4",
+         "editable": false
+      },
+      {
+         "start": 40,
+         "end": 55,
+         "group": "Court7",
+         "className": "bg-green",
+         "content": "<span>Boys 10-1/8 <span class='text-light-blue'>D.Jassica(ITA)<\/span> vs <span class='text-blue'>Rami Zelikovich 3<\/span><\/span>",
+         "id": "11",
+         "groupMatch": "3",
+         "editable": false
+      }
+   ]
+]

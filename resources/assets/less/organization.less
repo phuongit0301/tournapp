@@ -1,0 +1,250 @@
+.organization{
+    font-family: HelveticaNeue;
+    margin-left: -20px;
+    .col-md-2.control-label{
+        width: 19%;
+    }
+    .big-label{
+        label{
+            font-size: 20px !important;
+        }
+    }
+    .custom-file-upload label {
+        font-weight: normal;
+    }
+    .btn-remove {
+        border-radius: 2.7px;
+        background-color: #dd8c8c;
+        border: solid 0.9px #dd8c8c;
+        color: #fff;
+        padding: 5px 25px;
+        cursor: pointer;
+        text-align: center;
+    }
+    label.text-left {
+        text-align: left;
+        margin-left: 70px;
+    }
+    .text{
+        font-family: HelveticaNeue;
+        font-size: 18px;
+        text-align: left;
+        color: #000000;
+    }
+    .sub-organization{
+        label.text-left {
+            margin-left: 40px;
+        }
+        .table-container{
+            padding: 30px 0 30px 55px;
+            .table-header-wrapper{
+                padding: 0;
+                border: solid 1px #ebebeb;
+                border-bottom: 5px solid #f7f7f7;
+                .table-header{
+                    padding: 20px 0;
+                    font-family: HelveticaNeue;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: #4a4a4a;
+                    font-weight: bold;  
+                    position: relative;
+                    
+                }
+                .sort-able{
+                    &:before {
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        border-left: 7px solid transparent;
+                        border-right: 7px solid transparent;
+                        position: absolute;
+                        top: 0;
+                        border-top: 7px solid #000;
+                        text-align: center;
+                        right: 13%;
+                        top: 25px;
+                    }
+                }
+                .border-right{
+                    border-right: solid 1px #ebebeb;
+                }
+
+            }
+            .table{
+                .text-fuzzy{
+                    color: #9d9d9d;
+                }
+                td{
+                    font-size: 14px;
+                    border: solid 1px #ebebeb;
+                    text-align: center;
+                    color: #4a4a4a;
+                    padding: 10px 0 10px 0;
+                }
+                .sub-organization-name{
+                    font-weight: bold;
+                }
+                .classification{
+                    background-color: #fff;
+                    padding: 25px 0 0;
+                }
+                .action{
+                    a{
+                        color: #dd8c8c;
+                        font-weight: bold;
+                        float: right;
+                        padding-right: 40px;
+                        position: relative;
+                    }
+                    a:before{
+                        content: "";
+                        background-image: url("../src/image/organization-icon/icon-remove.png");
+                        background-repeat: no-repeat;
+                        background-size: 13px 16px;
+                        width: 17px;
+                        height: 20px;
+                        display: inline-block;
+                        text-align: left;
+                        margin: 0 20px 0 0;
+                        position: absolute;
+                        top: 4px;
+                        right: 65px;
+                    }
+                    .btn-add-sub-organization{
+                        color: #8dc63f;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+                .logo{
+                    a{
+                        color: #2381da;
+                    }
+                }
+                .btn-pencil {
+                    position: relative;
+                    background-color: #fff;
+                    border: none;
+                    color: white;
+
+                }
+                
+                .btn-pencil:before {
+                    content: "";
+                    background-image: url("../src/image/logo-2x/icon-edit2x.png");
+                    background-repeat: no-repeat;
+                    background-size: 15px 15px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    text-align: left;
+                    margin: 0 20px 0 0;
+                    position: absolute;
+                    top: -11px;
+                    left: -30px;
+                }
+            }
+            #table-scroll{
+                max-height: 170px;
+                .mCSB_container{
+                    margin-right: 0px;
+
+                }
+                .mCSB_draggerContainer{
+                    left: 12px;
+                }
+                .mCSB_dragger_bar {
+                    width: 4px;
+                    border-radius: 4.5px;
+                    background-image: linear-gradient(to bottom, #2379ae, #53a0fe);
+                    box-shadow: 0 0 4px 0 #4990e2;
+                }
+
+            }
+        } 
+    }
+}
+
+#addSubOrganizationModal{   
+    font-size: 16px;
+    input{
+        height: 43px;
+    }
+    .avatar-setup {
+        float: left;
+        width: 32%;
+        img {
+            border: 1px solid #dddddd;
+            padding: 3px;
+            border-radius: 4px;
+        }
+    }
+    .btn-remove {
+        font-size: 14px;
+        border-radius: 2.7px;
+        background-color: #dd8c8c;
+        border: solid 0.9px #dd8c8c;
+        color: #fff;
+        padding: 5px 25px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .label-file{
+        font-weight: normal;
+    }
+    .big-label{
+        label{
+            font-size: 20px !important;
+        }
+    }
+    .custom-file-upload {
+        float: left;
+        .inputfile {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        .inputfile + label {
+            border-radius: 2.7px;
+            background-color: #8dc63f;
+            border: solid 0.9px #8dc63f;
+            color: #fff;
+            padding: 5px 25px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 14px;
+        }
+        .inputfile:focus + label,
+        .label-file {
+            width: 100%;
+        }
+    }
+}
+
+.organization-start{
+    .img-info{
+        width: 139px ;
+        height: 139px;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-family: Archive;
+        font-size: 26px;
+        text-align: center;
+        color: #000000;
+        font-weight: normal;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    button{
+        font-size: 20px;
+        width: 278px;
+        height: 58px;
+        margin-top: 20px !important;
+    }
+}

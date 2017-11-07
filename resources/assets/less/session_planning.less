@@ -1,0 +1,153 @@
+#SessionPlanningApp{
+    .label-play{
+        margin-right: 20px;
+        background-color: #d8d8d8;
+        padding: 0px 10px;
+        border: solid 1px #bebebe;
+    }
+    .label-by{
+        margin-right: 20px;
+        background-color: #fff;
+        padding: 0px 10px;
+        border: solid 1px #bebebe;
+    }
+    .row.nopadding{
+        display: flex;
+    }
+    .nopadding{
+        padding: 0;
+    }
+    .box-content .header .menu-header.menu-header-right{
+        justify-content: flex-end;
+        .text-active{
+            color: #b5e686;
+        }
+    }
+    .session-chart{
+        margin-bottom: 60px;
+        .title{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .label-container{
+            margin-bottom: 10px !important;
+            label{
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .player-input{
+                margin-left: 10px;
+                width: 45px;
+                height: 26px;
+                padding: 2px;
+            }
+        }
+        
+        .chart{
+            padding: 0;
+            .item-play{
+                background: #d8d8d8;
+            }
+            .item-by{
+                background: #fff;
+            }
+            .round-1-16{
+                ul.round-chart{
+                    li.item{
+                        position: relative;
+                        display: block;
+                        width: 50px;
+                        height: 16px;
+                        margin-bottom: 30px;
+                        margin-top: 15px;
+                        border: solid 1px #bebebe;
+                        .player-1{
+                            position: absolute;
+                            top: -13px;
+                            font-size: 8px;
+                        }
+                        .player-2{
+                            position: absolute;
+                            bottom: -13px;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            .round-1-8{
+                ul.round-chart{
+                    margin-top: 38px;
+                    li.item{
+                        display: block;
+                        width: 50px;
+                        height: 16px;
+                        margin-bottom: 76px;
+                        border: solid 1px #bebebe;
+                    }
+                }
+            }
+            .round-1-4{
+                ul.round-chart{
+                    margin-top: 28px;
+                    li.item{
+                        display: block;
+                        width: 50px;
+                        height: 16px;
+                        margin-bottom: 64px;
+                        border: solid 1px #bebebe;
+                    }
+                }
+            }
+            .round-1-2{
+                ul.round-chart{
+                    margin-top: 64px;
+                    li.item{
+                        display: block;
+                        width: 50px;
+                        height: 16px;
+                        margin-bottom: 145px;
+                        border: solid 1px #bebebe;
+                    }
+                }
+            }
+            .round-1-1{
+                ul.round-chart{
+                    margin-top: 150px;
+                    li.item{
+                        display: block;
+                        width: 50px;
+                        height: 16px;
+                        margin-bottom: 145px;
+                        border: solid 1px #bebebe;
+                    }
+                }
+            }
+        }
+
+        .play-button-container.margin-bottom-50{
+            margin-top: 50px;
+        }
+    }
+    .add-session-button-li{
+        background: none;
+        text-align: center;
+        .add-session-button-container{
+            .add-session-button{
+                background-image: url("../src/image/stage-icon/plus.png");
+                background-size: 100% 100%;
+                width: 50px;
+                height: 50px;
+                border: none;
+                background-repeat: no-repeat;
+                background-color: none;
+                border-radius: 5px;
+            }
+        }
+    }
+    .footer{
+        .btn-green{
+            width: 122px;
+        }
+    }
+}

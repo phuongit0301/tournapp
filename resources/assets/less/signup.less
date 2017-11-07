@@ -1,0 +1,645 @@
+#PlayerSignUpApp{
+    padding: 10px 10px;
+    background: #fff;
+    height: 100vh;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    .header{
+        .header-wrapper{
+            padding: 10px 10px;
+            .front-header{
+                display: inline-flex;
+                li{
+                    margin-left: 19px;
+                    color: #2381da;
+                    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+                }
+            }   
+        }
+    }
+    .body{
+        background: #fff;
+        .tournament-info{
+            .tournament-image-warpper{
+                img{
+                    width: 85%;
+                }
+            }
+            .tournament-info-wrapper{
+                .tournament-name-wrapper{
+                    display: inline-flex;
+                    .text-tournament-name{
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                    .country-flag{
+                        width: 60px;
+                        height: 30px;
+                        margin: 7px 0px 0px 30px;
+                    }
+                }
+                .info{
+                    margin-top: 10px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    .info-label{
+                        width: 25%;
+                        font-size: 16px;
+                    }
+                    .text-venue{
+                        text-decoration: underline;
+                        color: #107DDA;
+                    }
+                    .text-date{
+                        
+                    }
+                    .text-last-update{
+                        color: #989898;
+                    }
+                    .text-organizer{
+                        text-decoration: underline;
+                        color: #107DDA;
+                    }
+                }
+            }
+        }
+        .player-signup-body{
+            padding: 10px 0;
+            .text-player-wrapper{
+                margin-bottom: 10px;
+            }
+            .text-player-signup{
+                text-transform: uppercase;
+                font-size: 26px;
+                font-weight: 600;
+            }
+            .first-time-signup-form{
+                padding: 30px 0;
+                background: #f7f7f7;
+                border: 1px solid #cfcfcf;
+                .signup-wrapper{
+                    margin: 30px 0;
+                    label{
+                        margin-bottom: 20px;
+                    }   
+                    .btn-green{
+                        width: 100px;
+                    }
+                }
+                .login-wrapper{
+                    margin: 30px 0;
+                    label{
+                        margin-bottom: 20px;
+                    }
+                    .btn-green{
+                        width: 100px;
+                    }
+                }
+            }//end first-time-signup-form
+            .progress-bar-container{
+                
+                .bs-wizard {
+                    padding: 0 0 10px 0;
+                }
+                .bs-wizard > .bs-wizard-step {
+                    padding: 0; 
+                    position: relative;
+                }
+                .bs-wizard > .bs-wizard-step + .bs-wizard-step {
+
+                }
+                .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+                    color: #595959; 
+                    font-size: 16px; 
+                    margin-bottom: 5px;
+                }
+                .bs-wizard > .bs-wizard-step .bs-wizard-info {
+                    color: #999; 
+                    font-size: 14px; 
+                    margin-top: -15px;
+                }
+                .bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+                    position: absolute; 
+                    width: 30px; 
+                    height: 30px; 
+                    display: block; 
+                    background: #8DC63F; 
+                    top: 45px; 
+                    left: 50%; 
+                    margin-top: -15px; 
+                    margin-left: -15px; 
+                    border-radius: 50%;
+                } 
+                .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {
+                    content: ' '; 
+                    background: url("../src/image/category-icon/check-round.png") left top no-repeat;
+                    background-size: 25px 25px;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: 2px;
+                    left: 3px;
+                } 
+                .bs-wizard > .bs-wizard-step > .progress {
+                    position: relative; 
+                    border-radius: 0px; 
+                    height: 3px; 
+                    box-shadow: none; 
+                    margin: 45px 0;
+                }
+                .bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+                    width:0px; 
+                    box-shadow: none; 
+                    background: #8DC63F;
+                }
+                .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+                    width:100%;
+                }
+                .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+                    width:50%;
+                }
+                .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {
+                    width:0%;
+                }
+                .bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {
+                    width: 100%;
+                }
+                .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+                    background-color: #F0F0F0;
+                    border: 1px solid #C5C5C5;
+                }
+                .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {
+                    opacity: 0;
+                }
+                .bs-wizard > .bs-wizard-step:first-child  > .progress {
+                    left: 50%; width: 50%;
+                }
+                .bs-wizard > .bs-wizard-step:last-child  > .progress {
+                    width: 50%;
+                }
+                .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{
+                     pointer-events: none; 
+                }
+            }//end progress bar
+            .profile-form-container{
+                padding: 30px 0;
+                background: #fff;
+                .header-wrapper{
+                    margin-bottom: 20px;
+                    .text-header{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 22px;
+                    }
+                }
+                .profile-wrapper{
+                    .avatar{
+                        width: 100%;
+                        img {
+                            border: 1px solid #dddddd;
+                            padding: 3px;
+                            border-radius: 4px;
+                        }
+                    }
+                    .custom-file-upload {
+                        float: left;
+                        .btn-remove {
+                            border-radius: 2.7px;
+                            background-color: #dd8c8c;
+                            border: solid 0.9px #dd8c8c;
+                            color: #fff;
+                            padding: 3px 25px;
+                            cursor: pointer;
+                            text-align: center;
+                        }
+                        .inputfile {
+                            width: 0.1px;
+                            height: 0.1px;
+                            opacity: 0;
+                            overflow: hidden;
+                            position: absolute;
+                            z-index: -1;
+                        }
+                        .inputfile + label {
+                            border-radius: 2.7px;
+                            background-color: #8dc63f;
+                            border: solid 0.9px #8dc63f;
+                            color: #fff;
+                            padding: 3px 25px;
+                            cursor: pointer;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                        .inputfile:focus + label,
+                        .label-file {
+                            width: 150px;
+                            // &:before {
+                            //     content: "";
+                            //     width: 0;
+                            //     height: 0;
+                            //     border-left: 5px solid transparent;
+                            //     border-right: 5px solid transparent;
+                            //     position: absolute;
+                            //     top: 13px;
+                            //     text-align: center;
+                            //     border-bottom: 5px solid #fff;
+                            //     left: 77%;
+                            // }
+                        }
+                    }
+                }
+                .ranking-wrapper{
+                    .text-national-wrapper{
+                        padding: 20px 0;
+                        .text-national{
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                    
+                }
+                .contact-info-wrapper{
+
+                }
+                .club-info-wrapper{
+
+                }
+                .recaptcha-container{
+                    padding-bottom: 20px;
+                }
+                .agree-rule-container{
+                    label{
+                        font-weight: 500;
+                    }
+                    a{
+                        color: #2381da;
+                        text-decoration: underline;
+                    }
+                }
+                .continue-button-container{
+                    padding: 20px 0;
+                    button{
+                        width: 140px;
+                        height: 36px;
+                        font-size: 16px;
+                    }
+                }
+            }//end profile-form-container
+
+            .categories-step-container{
+                .label-warpper{
+                    padding: 10px 0;
+                }
+                .header-wrapper{
+                    padding: 20px 0;
+                    .text-header{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 22px;
+                    }
+                }
+                .classification-container{
+                    padding: 20px 0;
+                    .btn-classification {
+                        background: #206695;
+                        border-radius: 0;
+                        color: #fff;
+                        text-transform: uppercase;
+                        width: 120px;
+                        border: none;
+                        height: 36px;
+                        font-weight: bold;
+                    }
+                    .btn-classification.active {
+                        background: #8DC63F;
+                        box-shadow: 0 0 3px 0 #8dc63f;
+                    }
+                }
+                .court-size-container{
+                    padding: 20px 0;
+                }
+                .match-type-container{
+                    padding: 20px 0;
+                    .btn-match-type {
+                        background: #206695;
+                        border-radius: 0;
+                        color: #fff;
+                        text-transform: uppercase;
+                        width: 120px;
+                        border: none;
+                        height: 36px;
+                        font-weight: bold;
+                    }
+                }
+                .categories-container{
+                    padding: 20px 0;
+                    .selected-filter-container{
+                        padding: 20px 0;
+                        .selected-filter{
+                            background: #206695;
+                            border-radius: 0;
+                            color: #fff;
+                            border: none;
+                            font-weight: bold;
+                            padding: 5px 10px;
+                        }
+                    }
+                    .list-categories-container{
+                        .row-categories{
+                            padding: 20px 0;
+                            .category-box-container{
+                                text-align: center;
+                                .category-box{
+                                    width: 276px;
+                                    height: 150.8px;
+                                    border: solid 1px #e8e8e8;
+                                    padding: 10px 15px;
+                                    .checkbox-custom{
+                                        width: 15px;
+                                        height: 15px;
+                                        z-index: 10;
+                                    }
+                                    .checkbox-custom-label{
+                                        margin-left: 0;
+                                    }
+                                    .categories-detail{
+                                        text-align: left;
+                                        padding-left: 5px;
+                                        padding-top: 2px;
+                                        p{
+                                            margin-bottom: 5px;
+                                        }
+                                        .text-categories-name{
+                                            color: #8dc63f;
+                                            font-weight: 600;
+                                        }
+                                        label{
+                                            font-size: 14px;
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+                .button-container{
+                    padding: 20px 0;
+                    button{
+                        width: 140px;
+                        height: 36px;
+                        font-size: 16px;
+                    }
+                }
+            }//end categories-step-container
+
+            .product-step-container{
+                .tournament-name{
+                    height: 68px; 
+                    border-radius: 2px;
+                    background: #87c137;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 68px;
+                    text-transform: uppercase;
+                }
+                .table-container{
+                    .table-product-wrapper{
+                        td, th{
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 15px;
+                        }
+                        th{
+                            color: #4a4a4a;
+                        }
+                        .td-checkbox{
+                            width: 10%;
+                            .checkbox-custom{
+                                width: 25px;
+                                height: 25px;
+                                z-index: 10;
+                            }
+                            .checkbox-custom-label{
+                                margin: 0;
+                            }
+                            .checkbox-custom + .checkbox-custom-label{
+                                &:before{
+                                    width: 25px;
+                                    height: 24px;
+                                }
+                            }
+                            .checkbox-custom:checked + .checkbox-custom-label{
+                                &:before{
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                        .td-classification{
+                            width: 20%;
+                            text-transform: uppercase;
+                        }
+                        .td-categories{
+                            width: 20%;
+                        }
+                        .td-products{
+                            width: 40%;
+                            .product-wrapper{
+                                .product-row{
+                                    padding: 5px 0;
+                                    .button-upload-document{
+                                        button{
+                                            width: 100%;
+                                            margin: 0;
+                                        }
+                                    }
+                                    .button-image-container{
+                                        padding-left: 5px;
+                                        img{
+                                            width: 22px;
+                                            height: 25px;
+                                        }
+                                    }
+                                    label{
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                    }
+                                    .text-price-wrapper{
+                                        padding: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .td-remove{
+                            width: 10%;
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                cursor: pointer;
+                            }
+                            .text-remove{
+                                color: #eb5d5d;
+                                font-size: 12px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .button-container{
+                    padding: 20px 0;
+                    button{
+                        width: 140px;
+                        height: 36px;
+                        font-size: 16px;
+                    }
+                }
+            }//end product-step-container
+
+            .payment-step-container{
+                .header-wrapper{
+                    padding: 20px 0;
+                    .text-header{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 22px;
+                    }
+                }
+                .tournament-name{
+                    height: 68px; 
+                    border-radius: 2px;
+                    background: #87c137;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 68px;
+                    text-transform: uppercase;
+                }
+                .table-container{
+                    .table-product-wrapper{
+                        td, th{
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 15px;
+                        }
+                        th{
+                            color: #4a4a4a;
+                        }
+                        .td-number{
+                            width: 10%;
+                        }
+                        .td-classification{
+                            width: 20%;
+                            text-transform: uppercase;
+                        }
+                        .td-categories{
+                            width: 20%;
+                        }
+                        .td-products{
+                            width: 40%;
+                            .product-wrapper{
+                                .product-row{
+                                    padding: 5px 0;
+                                    .button-upload-document{
+                                        button{
+                                            width: 100%;
+                                            margin: 0;
+                                        }
+                                    }
+                                    .button-image-container{
+                                        padding-left: 5px;
+                                        img{
+                                            width: 22px;
+                                            height: 25px;
+                                        }
+                                    }
+                                    label{
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                    }
+                                    .text-price-wrapper{
+                                        padding: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .td-last{
+                            width: 10%;
+                        }
+                    }
+                }
+                .payment-container{
+                    .payment-method{
+                        .card-type-container{
+                            img{
+                                width: 47px;
+                            }
+                        }
+                        .payment-row{
+                            padding: 10px 0;
+                            .text-note-cvc{
+                                margin: 10px;
+                                text-decoration: underline;
+                                color: #2381da;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .button-container{
+                    padding: 50px 0;
+                    button{
+                        width: 140px;
+                        height: 36px;
+                        font-size: 16px;
+                    }
+                }
+            }//end payment-step-container
+
+            .finish-step-container{
+                padding: 50px 0;
+                .message-wrapper{
+                    .text-thankyou{
+                        font-size: 38px;
+                        color: #172e49;
+                        font-weight: 600;
+                        padding: 20px 0;
+                    }
+                    .text-message{
+                        font-family: Archive;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                    }
+                }
+                .button-container{
+                    padding: 50px 0;
+                    button{
+                        width: 140px;
+                        height: 36px;
+                        font-size: 16px;
+                    }
+                }
+            }//end finish-step-container
+        }// end player-signup-body
+    }
+    .footer{
+        position: inherit;
+        bottom: 0;
+        margin-top: 0;
+        background: #fff;
+        .menu-footer{
+            display: inline-flex; 
+            li{
+                margin: 10px 10px;
+                color: #22384b;;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tournapps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../src/css/modules.css">
+    <link rel="stylesheet" type="text/css" href="../src/css/style.min.css">
+</head>
+
+<body>
+    <div class="tournapps">
+        <div class="page-wrapper">
+            <div class="col-sm-3 col-md-2 sidebar-wrapper">
+                <div class="box-left">
+                    <div class="logo">
+                        <img src="../src/image/logo1x.png" />
+                    </div>
+                    <ul class="sidebar">
+                        <li>
+                            <a href="#" class="text-upper"> <img src="../src/image/iconmenu1.png" />Organization </a>
+                            <ul class="sidebar-child-first">
+                                <li><a class="active" href="">Configuration</a></li>
+                                <li><a href="">Site Content</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="text-upper">
+                                <img src="../src/image/iconmenu2.png" /> Competition
+                            </a>
+                            <ul class="sidebar-child-first">
+                                <li><a href="">Tournament</a>
+                                    <ul class="sidebar-child-second">
+                                        <li><a href="">Active</a>
+                                            <ul class="sidebar-child-third">
+                                                <li><a href="">NY State Open</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Recent</a>
+                                            <ul class="sidebar-child-third">
+                                                <li><a href="">Boston Open</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Leagues  </a>
+                                    <ul class="sidebar-child-second">
+                                        <li><a href="">Active</a></li>
+                                        <li><a href="">NE Youth</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="text-upper"> <img src="../src/image/iconmenu3.png" />Rankings</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-upper"> <img src="../src/image/iconmenu4.png" />Entities</a>
+                            <ul class="sidebar-child-first">
+                                <li><a href="">Players</a></li>
+                                <li><a href="">Teams</a></li>
+                                <li><a href="">Clubs</a></li>
+                                <li><a href="">Referees</a></li>
+                                <li><a href="">Reports</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="footer-left text-right">
+                        <span>All rights reserved</span>
+                        <button><img src="../src/image/menubutton1.png"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-10 main">
+                <div class="box-content">
+                    <div class="header">
+                        <div class="main-header-menu">
+                            <ul class="menu-header menu-header-left">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#" class="active">Define Competition</a></li>
+                                <li><a href="#">Plan sessions</a></li>
+                                <li><a href="#">Manage sessions</a></li>
+                            </ul>
+                            <ul class="menu-header menu-header-right">
+                                <li class='border-right'>
+                                    <a href="#" class="links-logout"> 
+                                        <img src="../src/image/avt.jpg" />
+                                        <span>Brad Milosevic</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="links-logout" href="#">
+                                        <span>Logout</span> 
+                                        <i class="logout-button"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title-competition">
+                            <h1>Create Competition</h1>
+                        </div>
+                        <div class="wrapper-menu-step">
+                            <ul class="menu-step-button">
+                                <li class="active"><a href="#">1. Set Up</a></li>
+                                <li><a href="#">2. Categories</a></li>
+                                <li><a href="#">3. Stages</a></li>
+                                <li><a href="#">4. Publising Preferences</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="col-sm-6 col-md-6 content-left-wrapper">
+                            <div class="content-left">
+                                <div class=" row form-group">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>1. </span>Name of Compatition
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <input type="text" class="form-control col-sm-7 col-md-7" id="name" placeholder="Name">
+                                </div>
+                                <div class=" row form-group">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>2. </span>Competition Logo
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>                                            
+                                    <div class="avatar-setup">
+                                        <img src="../src/image/avt.jpg" />
+                                    </div>
+                                    <!-- <button type="submit" class="col-sm-3 col-md-3 btn btn-primary btn-upload">Upload</button> -->
+                                    <div class="col-sm-3 col-md-3 custom-file-upload">
+                                        <input type="file" name="file" id="file" class="inputfile" />
+                                        <label for="file" class="label-file">Upload</label>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>3. </span> Competition Type
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <label class="col-sm-3 col-md-3 box-checkbox">
+                                        <input type="checkbox" name="">
+                                        <div>Team</div>
+                                    </label>
+                                    <label class="col-sm-4 col-md-4 box-checkbox">
+                                        <input type="checkbox" name="">
+                                        <div>Individual</div>
+                                    </label>
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>4. </span>Court size
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <select class="col-sm-7 col-md-7 selectpicker">
+                                        <option>Select court</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>5. </span>Ball type
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <select class="col-sm-7 col-md-7 selectpicker">
+                                        <option>Select type of ball</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>6. </span>Country
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <!-- <p class="col-sm-7 col-md-7 note-select">Select country</p> -->
+                                    <select class="col-sm-7 col-md-7 selectpicker">
+                                        <option>Singapore</option>
+                                        <option>Viet Nam</option>                                                
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 content-right-wrapper">
+                            <div class="content-left">
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>7. </span>Start Date
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <input class="col-sm-4 col-md-4 form-control datepicker" id="start-date" data-provide="datepicker" >
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>8. </span>End Date
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <input class="col-sm-4 col-md-4 form-control datepicker" id="end-date" data-provide="datepicker">
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>9. </span>Timezone
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <select class="col-sm-7 col-md-7 selectpicker">
+                                        <option>UTC-07:00</option>
+                                        <option>UTC-09:00</option>
+                                    </select>
+                                </div>
+                                <div class="row form-group ">
+                                    <label class="col-sm-5 col-md-5">
+                                        <span>10. </span>Venue(s)
+                                        <p>(Placeholder for formfield dehere...)</p>
+                                    </label>
+                                    <select class="col-sm-7 col-md-7 selectpicker">
+                                        <option>Select venue</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="row box-venue">
+                                    <ul class="col-sm-12 col-md-12">
+                                        <li>Acer Arena</li>
+                                        <li>Australian Women's Hardcourts</li>
+                                        <li>Burswood Dome</li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-12 content-footer text-right">
+                            <button class="btn btn-cancel" type="submit">Cancel</button>
+                            <button class="btn btn-save" type="submit">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+<script type="text/javascript" src="../src/js/all.js"></script>
+<script type="text/javascript">
+    jQuery('.datepicker').datepicker({
+        format: 'dd M yyyy',
+        startDate: '-0d'
+    });
+
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10){
+        dd='0'+dd;
+    }
+
+    var month = new Array();
+    month[0] = "January";
+    month[1] = "February";
+    month[2] = "March";
+    month[3] = "April";
+    month[4] = "May";
+    month[5] = "June";
+    month[6] = "July";
+    month[7] = "August";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    var MM = month[today.getMonth()+1];
+    var today = dd+' '+ MM +' '+yyyy;    
+
+    document.getElementById('start-date').value = today;
+    document.getElementById('end-date').value = today;
+</script>
+</body>
+
+</html>

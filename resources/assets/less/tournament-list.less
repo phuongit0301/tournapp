@@ -1,0 +1,229 @@
+.tournament-list{
+	/*margin-top: -60px;*/
+	padding-left: 20px;
+	font-family: HelveticaNeue;
+	.text-left{
+		text-align: left;
+	}
+	.filter{
+		#year{
+			width: 80px;
+		}
+		.filter-content{
+			.year-filter{
+				width: 6em !important;
+			}
+			.status-filter{
+				width: 10em !important;
+			}
+			.classification-filter{
+				width: 13em !important;
+			}
+		}
+		.col-sm-1.col-md-1.col-lg-1.tournament-type-checkbox {
+			width: 12%;
+		}
+		.tournament-type-checkbox{
+			padding-top: 6px;
+		}
+		.filter-footer{
+			padding-right: 20px;
+			margin-top: -20px;
+		}
+		
+		.calendar-icon{
+			border: 0px;
+			background: #fff;
+			position: absolute;
+			top: 8px;
+			right: 30px;
+			z-index: 2;
+		}
+	}
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: solid 1px #e9e9e9;
+		padding: 30px 0 0 0;
+		margin-right: -8px;
+	}
+	.search-table-container{
+		h2{
+			font-family: HelveticaNeue;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: left;
+			color: #000000;
+		}
+		.table-options{
+			font-family: HelveticaNeue;
+			font-size: 14px;
+			text-align: left;
+			color: #444444;
+			.control{
+				padding-left: 0;
+				input{
+					width: 65px;
+					height: 26px;
+					border-radius: 2px;
+					border: solid 1px rgba(150, 150, 150, 0.31);
+					font-size: 14px;
+				}
+				label{
+					font-size: 14px !important;
+				}
+				label.total-page{
+					margin-left: -40px;
+				}
+				#record-per-page{
+					margin-left: -10px;
+					margin-top: -4px;
+				}
+				#go-to{
+					margin-left: -45px;
+					margin-top: -4px
+				}
+				.page-option{
+					.col-sm-2 ,.col-md-2, .col-lg-2 {
+						width: 14%;
+					}
+				}
+			}
+			label{
+				font-weight: normal;
+			}
+			input[type=number]::-webkit-inner-spin-button, 
+			input[type=number]::-webkit-outer-spin-button { 
+				opacity: 1;
+				margin-right: -1px; 
+				background: #fff;
+			}
+		}
+		.table-container{
+			padding: 30px 0 30px 0;
+			.table-header-wrapper{
+				padding: 0;
+				border: solid 1px #ebebeb;
+				border-bottom: 5px solid #f7f7f7;
+				.table-header{
+					padding: 20px 0;
+					font-family: HelveticaNeue;
+					font-size: 14px;
+					font-weight: bold;
+					text-align: center;
+					color: #4a4a4a;
+					font-weight: bold;	
+					position: relative;
+					
+				}
+				.sort-able{
+					&:before {
+						content: "";
+						width: 0;
+						height: 0;
+						border-left: 7px solid transparent;
+						border-right: 7px solid transparent;
+						position: absolute;
+						top: 0;
+						border-top: 7px solid #000;
+						text-align: center;
+						right: 13%;
+						top: 25px;
+					}
+				}
+				.border-right{
+					border-right: solid 1px #ebebeb;
+				}
+
+			}
+			.table{
+				.text-fuzzy{
+					color: #9d9d9d;
+				}
+				td{
+					font-size: 14px;
+					border: solid 1px #ebebeb;
+					text-align: center;
+					color: #4a4a4a;
+					padding: 10px 0 10px 0;
+				}
+				.competition-name{
+					font-weight: bold;
+				}
+				.classification{
+					background-color: #fff;
+					padding: 25px 0 0;
+				}
+				.action{
+					a{
+						color: #2381da;
+						font-weight: bold;
+						float: right;
+						padding-right: 20px;
+					}
+				}
+				
+				.btn-pencil {
+					position: relative;
+					background-color: #fff;
+					border: none;
+					color: white;
+
+				}
+
+				.btn-pencil:before {
+					content: "";
+					background-image: url("../src/image/logo-2x/icon-edit2x.png");
+					background-repeat: no-repeat;
+					background-size: 15px 15px;
+					width: 20px;
+					height: 20px;
+					display: inline-block;
+					text-align: left;
+					margin: 0 20px 0 0;
+					position: absolute;
+					top: -11px;
+					left: -30px;
+				}
+			}
+			#table-scroll{
+				max-height: 170px;
+				.mCSB_container{
+					margin-right: 0px;
+
+				}
+				.mCSB_draggerContainer{
+					left: 12px;
+				}
+				.mCSB_dragger_bar {
+					width: 4px;
+					border-radius: 4.5px;
+					background-image: linear-gradient(to bottom, #2379ae, #53a0fe);
+					box-shadow: 0 0 4px 0 #4990e2;
+				}
+
+			}
+		} 
+		.custom-pagination{
+			a{
+				font-family: HelveticaNeue;
+				font-size: 14px;
+				font-weight: bold;
+				text-align: left;
+				color: #444444;
+				padding: 0 5px 0 5px;				
+			}
+			.selected{
+				background: #8dc63f;
+				width: 18px;
+				height: 18px;
+				display: inline-block;
+				border-radius: 2px;
+				padding: 0px 0 0 5px;
+				color: #fff;
+			}
+
+		}
+	}
+}
